@@ -16,33 +16,28 @@
 
 # 1. Mô tả bài toán
 
-Xây dựng hệ thống quản lý tiệm cầm đồ sử dụng Django.
+Trong bài tập này em sử dụng Django kết hợp Docker để xây dựng hệ thống quản lý tiệm cầm đồ cơ bản.
 
 Hệ thống cho phép:
+- Quản lý khách hàng
+- Quản lý tài sản cầm cố
+- Quản lý phiếu cầm
+- Quản lý thanh toán
+- Theo dõi các khoản nợ đến hạn chưa thanh toán
 
-* Quản lý khách hàng
-* Quản lý tài sản cầm cố
-* Quản lý phiếu cầm
-* Quản lý thanh toán
-* Theo dõi các khoản nợ đến hạn chưa thanh toán
-* Quản trị dữ liệu bằng Django Admin
-* Public website bằng Cloudflare Tunnel
-
----
+Ngoài ra em còn sử dụng Cloudflare Tunnel để public website ra internet.
 
 # 2. Công nghệ sử dụng
 
-| Công nghệ         | Mục đích                   |
-| ----------------- | -------------------------- |
-| Ubuntu Server     | Hệ điều hành triển khai    |
-| Docker            | Chạy container             |
-| Docker Compose    | Quản lý nhiều service      |
-| Django            | Framework backend          |
-| MariaDB           | Hệ quản trị cơ sở dữ liệu  |
-| phpMyAdmin        | Xem cơ sở dữ liệu          |
+| Công nghệ | Mục đích |
+|---|---|
+| Ubuntu Server | Môi trường chạy project |
+| Docker | Chạy container |
+| Docker Compose | Quản lý nhiều service |
+| Django | Framework backend |
+| MariaDB | Hệ quản trị cơ sở dữ liệu |
+| phpMyAdmin | Kiểm tra cơ sở dữ liệu |
 | Cloudflare Tunnel | Public website ra internet |
-
----
 
 # 3. Thiết kế cơ sở dữ liệu
 
@@ -542,21 +537,12 @@ https://pawn.minhluong204.id.vn
 
 # 24. Kết luận
 
-Sau khi hoàn thành bài tập:
+Sau khi hoàn thành bài tập, em đã xây dựng được website quản lý tiệm cầm đồ bằng Django kết hợp Docker và MariaDB. 
 
-* Đã triển khai thành công Django bằng Docker
-* Đã sử dụng MariaDB làm cơ sở dữ liệu
-* Đã sử dụng phpMyAdmin để kiểm tra dữ liệu
-* Đã xây dựng giao diện quản lý bằng Django Admin
-* Đã sử dụng template HTML để hiển thị danh sách con nợ
-* Đã public website bằng Cloudflare Tunnel
-* Đã upload source code lên GitHub
+Hệ thống đã có:
+- Django Admin để quản lý dữ liệu
+- phpMyAdmin để kiểm tra cơ sở dữ liệu
+- Giao diện hiển thị danh sách con nợ
+- Cloudflare Tunnel để public website ra internet
 
-Qua bài tập em hiểu được:
-
-* Cách triển khai Django bằng Docker
-* Cách kết nối Django với MariaDB
-* Cách sử dụng Django Admin
-* Cách tạo models và migration
-* Cách public website bằng Cloudflare Tunnel
-* Cách xây dựng hệ thống web quản lý cơ bản bằng Django
+Qua bài tập này em hiểu rõ hơn về cách triển khai Django bằng Docker, kết nối cơ sở dữ liệu MariaDB và xây dựng một hệ thống web quản lý cơ bản.
