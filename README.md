@@ -1,4 +1,4 @@
-# BÁO CÁO BÀI TẬP 02
+# BÀI TẬP 02
 
 # Môn: Phát triển ứng dụng với mã nguồn mở - TEE0421
 
