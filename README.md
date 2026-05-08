@@ -8,7 +8,7 @@
 
 # Thông tin sinh viên
 
-* Họ và tên: .Lăng Nguyễn Minh Lượng
+* Họ và tên: Lăng Nguyễn Minh Lượng
 * Lớp: 58KTPM
 * Mã sinh viên: K225480106044
 
