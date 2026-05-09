@@ -534,9 +534,63 @@ https://pawn.minhluong204.id.vn
 
 ---
 
+# 24 Cấu hình Cloudflare Tunnel tự chạy
+
+## Bước 1: Tạo file config
+
+Mở file cấu hình:
+
+```bash
+nano ~/.cloudflared/config.yml
+```
+Thêm nội dung:
+```
+tunnel: 48e55521-317e-4ed0-98ad-4314e65da811
+
+credentials-file: /home/admin1/.cloudflared/48e55521-317e-4ed0-98ad-4314e65da811.json
+
+ingress:
+  - hostname: pawn.minhluong204.id.vn
+    service: http://localhost:8000
+
+  - service: http_status:404
+```
+## Bước 2: Lưu file
+Trong nano: 
+```
+Ctrl + O
+Enter
+Ctrl + X
+```
+## Bước 3: Cài service Cloudflare
+Chạy lệnh:
+```
+sudo cloudflared service install
+```
+## Bước 4: Khởi động service
+```
+sudo systemctl start cloudflared
+```
+## Bước 5: Cho phép tự chạy khi bật máy
+```
+sudo systemctl enable cloudflared
+```
+## Bước 6: Kiểm tra trạng thái
+```
+sudo systemctl status cloudflared
+```
+Nếu thấy:
+```
+active (running)
+```
+thì Cloudflare Tunnel đã hoạt động thành công.
 
 
-# 24. Kết luận
+<img width="1109" height="471" alt="image" src="https://github.com/user-attachments/assets/361e5fda-ffb9-480f-8e45-f5c83205f7bc" />
+
+
+---
+# 25. Kết luận
 
 Sau khi hoàn thành bài tập, em đã xây dựng được website quản lý tiệm cầm đồ bằng Django kết hợp Docker và MariaDB. 
 
