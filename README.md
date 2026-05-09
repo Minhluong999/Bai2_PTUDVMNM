@@ -510,6 +510,9 @@ cloudflared tunnel run pawnshop
 sudo systemctl status cloudflared
 ```
 
+<img width="1114" height="630" alt="image" src="https://github.com/user-attachments/assets/bc0e9ca5-36ce-4c73-af15-f3d26b477132" />
+
+
 ## Giải thích
 
 Cloudflare Tunnel giúp public website ra internet mà không cần mở port modem.
