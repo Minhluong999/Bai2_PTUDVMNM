@@ -94,7 +94,6 @@ COPY . .
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
 ```
 
-## Giải thích
 
 | Lệnh                  | Ý nghĩa               |
 | --------------------- | --------------------- |
@@ -117,7 +116,6 @@ Django
 mysqlclient
 ```
 
-## Giải thích
 
 | Thư viện    | Công dụng       |
 | ----------- | --------------- |
