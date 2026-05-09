@@ -534,7 +534,7 @@ https://pawn.minhluong204.id.vn
 
 ---
 
-# 24 Cấu hình Cloudflare Tunnel tự chạy
+# 24. Cấu hình Cloudflare Tunnel tự chạy
 
 ## Bước 1: Tạo file config
 
