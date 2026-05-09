@@ -390,7 +390,7 @@ Cho phép quản lý dữ liệu trên trang admin.
 ## Link
 
 ```text
-http://http://192.168.1.16:8080
+http://192.168.1.16:8080
 ```
 
 ## Giải thích
