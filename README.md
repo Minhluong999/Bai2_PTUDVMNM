@@ -56,7 +56,7 @@ Ngoài ra em còn sử dụng Cloudflare Tunnel để public website ra internet
 
 ## Ảnh sơ đồ CSDL viết tay
 
-> Chèn ảnh tại đây
+<img width="2560" height="1152" alt="image" src="https://github.com/user-attachments/assets/dcc2adee-ec53-4e22-9e80-998fd6b43ce0" />
 
 ---
 
